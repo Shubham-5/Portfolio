@@ -98,7 +98,8 @@ a {
     line-height: 50px;
 }
 
-.tech-used .description {
+.tech-used,
+.description {
     max-width: 330px;
 }
 
@@ -135,6 +136,10 @@ a {
 
 footer {
     font-size: 10px;
+}
+
+#currentYear {
+    padding-right: 5px;
 }
 
 @media (max-width: 650px) {
