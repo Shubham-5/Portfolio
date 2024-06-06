@@ -1,75 +1,75 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 html {
-    scroll-behavior: smooth;
-    font-family: "Libre Baskerville", serif;
+  scroll-behavior: smooth;
+  font-family: "Libre Baskerville", serif;
 }
 
 body {
-    background: white;
-    border: 8px solid #494c4e;
-    color: black;
+  background: white;
+  border: 8px solid #494c4e;
+  color: black;
 }
 
 .site-logo {
-    display: block;
-    position: relative;
-    text-align: center;
-    color: black;
-    margin-top: 20%;
-    padding-top: 5px;
-    width: 60px;
-    height: 60px;
-    border: 3px solid rgb(78, 68, 68);
-    font-size: 20px;
-    transition: transform 0.2s ease;
+  display: block;
+  position: relative;
+  text-align: center;
+  color: black;
+  margin-top: 20%;
+  padding-top: 5px;
+  width: 60px;
+  height: 60px;
+  border: 3px solid rgb(78, 68, 68);
+  font-size: 20px;
+  transition: transform 0.2s ease;
 }
 
 .site-logo:hover {
-    transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 .navbar-item {
-    font-weight: 600;
+  font-weight: 600;
 }
 
 .navbar-item:hover {
-    transition: border 0.1s linear;
-    border-bottom: 2px solid blue;
+  transition: border 0.1s linear;
+  border-bottom: 2px solid blue;
 }
 
 .my-intro {
-    line-height: 3rem;
-    font-size: 2rem;
-    font-weight: 700;
+  line-height: 3rem;
+  font-size: 2rem;
+  font-weight: 700;
 }
 
 .about-h2 {
-    padding: 22px 0px;
-    font-weight: bold;
+  padding-bottom: 22px;
+  font-weight: bold;
 }
 
 .about {
-    line-height: 30px;
-    font-weight: inherit;
+  line-height: 30px;
+  font-weight: inherit;
 }
 
 .about-cv {
-    font-weight: 400;
-    text-decoration: underline;
+  font-weight: 400;
+  text-decoration: underline;
 }
 
 .about-cv i {
-    font-size: 20px;
-    padding-right: 5px;
+  font-size: 20px;
+  padding-right: 5px;
 }
 
 .about-section {
-    border-bottom: 1px solid #edebe9;
-    margin-bottom: 1rem;
+  border-bottom: 1px solid #edebe9;
+  margin-bottom: 1rem;
 }
 
 h1,
@@ -78,89 +78,89 @@ h3,
 h4,
 h5,
 h6 {
-    margin: 0 0 5px 0;
+  margin: 0 0 5px 0;
 }
 
 section {
-    max-width: 850px;
-    margin: 0 auto;
-    font-family: "Libre Baskerville", serif;
+  max-width: 850px;
+  margin: 0 auto;
+  font-family: "Libre Baskerville", serif;
 }
 
 .project-section {
-    border-bottom: 1px solid #edebe9;
+  border-bottom: 1px solid #edebe9;
 }
 
 .is-size-5 {
-    line-height: 50px;
+  line-height: 50px;
 }
 
 a {
-    line-height: 50px;
+  line-height: 50px;
 }
 
 .tech-used,
 .description {
-    max-width: 330px;
+  max-width: 330px;
 }
 
 .tech-used {
-    list-style: outside;
-    margin-top: 20px;
-    font-size: 14px;
-    line-height: 30px;
+  list-style: outside;
+  margin-top: 20px;
+  font-size: 14px;
+  line-height: 30px;
 }
 
 .description {
-    list-style: outside;
-    margin-top: 20px;
-    font-size: 14px;
-    line-height: 30px;
+  list-style: outside;
+  margin-top: 20px;
+  font-size: 14px;
+  line-height: 30px;
 }
 
 .project-contact {
-    border-top: 1px solid #edebe9;
+  border-top: 1px solid #edebe9;
 }
 
 .contact-links {
-    list-style: none;
+  list-style: none;
 }
 
 .contact-links span {
-    padding-left: 5px;
-    color: #494c4e;
+  padding-left: 5px;
+  color: #494c4e;
 }
 
 .contact-links i {
-    font-size: 22px;
+  font-size: 22px;
 }
 
 footer {
-    font-size: 10px;
+  font-size: 10px;
 }
 
 #currentYear {
-    padding-right: 5px;
+  padding-right: 5px;
 }
 
 @media (max-width: 650px) {
-    .navbar {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        margin-bottom: 40px;
-    }
-    .links {
-        max-height: 600px;
-    }
-    .nav-right {
-        padding-left: 0;
-        max-height: 60px;
-        width: 160px;
-    }
-    .nav-item {
-        margin-left: 0 !important;
-        text-align: right;
-        padding-right: 0;
-    }
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+  .links {
+    max-height: 600px;
+  }
+  .nav-right {
+    padding-left: 0;
+    max-height: 60px;
+    width: 160px;
+  }
+  .nav-item {
+    margin-left: 0 !important;
+    text-align: right;
+    padding-right: 0;
+  }
 }
